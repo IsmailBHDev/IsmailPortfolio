@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/index.css">
+  <script  src="../assets/js/script.js" ></script>
+
+  
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="../assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Ismail Ben Hamad</h1>
+
+          <p class="title">Engineering Student </p>
+        </div>
+
+
+
+
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ismail.ben.hamad2019@gmail.com" class="contact-link">ismail.benhamad@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+216 25 564 307</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">November 10, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sfax, Tunisia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/ism4il17/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/ismail_lah/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ismail-benhamad/" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item"><a href="../index.html">
+            <button class="navbar-link  " data-nav-link>About</button></a>
+          </li>
+
+          <li class="navbar-item"><a href="resume.html">
+            <button class="navbar-link" data-nav-link>Resume</button></a>
+          </li>
+          <li class="navbar-item"><a href="skills.html">
+            <button class="navbar-link" data-nav-link>Skills</button></a>
+          </li>
+
+
+          <li class="navbar-item"><a href="portfolio.html">
+            <button class="navbar-link" data-nav-link>Portfolio</button></a>
+          </li>
+
+          <li class="navbar-item"><a href="quiz.html">
+            <button class="navbar-link" >Quiz</button></a>
+          </li>
+          <li class="navbar-item"><a href="testimontal.html">
+            <button class="navbar-link" data-nav-link>Testimontal</button></a>
+          </li>
+          <li class="navbar-item"><a href="contact.html">
+            <button class="navbar-link" data-nav-link>Contact</button></a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <article class="quiz-container active">
+        <header>
+          <h2 class="h2 article-title">HTML & CSS Quiz</h2>
+        </header>
+      
+        <section class="quiz-form">
+          <h3 class="h3 form-title">Answer the following questions:</h3>
+          <form id="quizForm">
+            <div class="question">
+              <h4>1. What does HTML stand for?</h4>
+              <label><input type="radio" name="q1" value="A"> Hyperlinks and Text Markup Language</label><br>
+              <label><input type="radio" name="q1" value="B"> Hyper Text Markup Language</label><br>
+              <label><input type="radio" name="q1" value="C"> Home Tool Markup Language</label>
+            </div>
+
+            <div class="question">
+              <h4>2. What does CSS stand for?</h4>
+              <label><input type="radio" name="q2" value="A"> Creative Style Sheets</label><br>
+              <label><input type="radio" name="q2" value="B"> Cascading Style Sheets</label><br>
+              <label><input type="radio" name="q2" value="C"> Colorful Style Sheets</label>
+            </div>
+
+            <div class="question">
+              <h4>3. Which HTML element is used to define a paragraph?</h4>
+              <label><input type="radio" name="q3" value="A"> &lt;p&gt;</label><br>
+              <label><input type="radio" name="q3" value="B"> &lt;paragraph&gt;</label><br>
+              <label><input type="radio" name="q3" value="C"> &lt;para&gt;</label>
+            </div>
+
+            <div class="question">
+              <h4>4. Which property is used to change the background color?</h4>
+              <label><input type="radio" name="q4" value="A"> color</label><br>
+              <label><input type="radio" name="q4" value="B"> background-color</label><br>
+              <label><input type="radio" name="q4" value="C"> bgcolor</label>
+            </div>
+
+            <div class="question">
+              <h4>5. What does the &lt;a&gt; tag define?</h4>
+              <label><input type="radio" name="q5" value="A"> A hyperlink</label><br>
+              <label><input type="radio" name="q5" value="B"> An anchor</label><br>
+              <label><input type="radio" name="q5" value="C"> An article</label>
+            </div>
+
+            <div class="question">
+              <h4>6. Which CSS property controls the text size?</h4>
+              <label><input type="radio" name="q6" value="A"> font-size</label><br>
+              <label><input type="radio" name="q6" value="B"> text-size</label><br>
+              <label><input type="radio" name="q6" value="C"> size</label>
+            </div>
+
+            <div class="question">
+              <h4>7. Which HTML attribute is used to define inline styles?</h4>
+              <label><input type="radio" name="q7" value="A"> class</label><br>
+              <label><input type="radio" name="q7" value="B"> style</label><br>
+              <label><input type="radio" name="q7" value="C"> styles</label>
+            </div>
+
+            <div class="question">
+              <h4>8. What is the correct HTML element for the largest heading?</h4>
+              <label><input type="radio" name="q8" value="A"> &lt;heading&gt;</label><br>
+              <label><input type="radio" name="q8" value="B"> &lt;h1&gt;</label><br>
+              <label><input type="radio" name="q8" value="C"> &lt;h6&gt;</label>
+            </div>
+
+            <div class="question">
+              <h4>9. Which CSS property is used to make the text bold?</h4>
+              <label><input type="radio" name="q9" value="A"> font-weight</label><br>
+              <label><input type="radio" name="q9" value="B"> bold</label><br>
+              <label><input type="radio" name="q9" value="C"> weight</label>
+            </div>
+
+            <div class="question">
+              <h4>10. How do you write a comment in CSS?</h4>
+              <label><input type="radio" name="q10" value="A"> // this is a comment</label><br>
+              <label><input type="radio" name="q10" value="B"> /* this is a comment */</label><br>
+              <label><input type="radio" name="q10" value="C"> &lt;!-- this is a comment --&gt;</label>
+            </div>
+
+            <button id="submitQuiz" type="submit" class="quizForm">Submit Quiz</button>
+          </form>
+          <div id="score"></div>
+          <div id="result"></div>
+        </section>
+      </article>
+    </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
